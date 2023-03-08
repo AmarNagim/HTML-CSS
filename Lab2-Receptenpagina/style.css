@@ -1,0 +1,73 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+hr.solid {
+    border-top: 1px solid rgba(0, 0, 0, 0.605);
+
+  }
+
+.top-side{
+    width: 50%;
+    align-items: center;
+    margin: auto;
+}  
+
+p {
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.687);
+
+
+
+}
+
+ul{
+    color: rgba(0, 0, 0, 0.687);
+
+}
+
+li{
+    margin: 20px 0;
+
+}
+
+.pre-class {
+    font-size: 170%;
+}
+
+img {
+    max-width: 80%;
+}
+
+.tip{
+    padding: 1em 1em;
+    font-size: 90%;
+    background-color: rgba(0, 255, 132, 0.178);
+    font-weight: 550;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-right: 10%;
+    text-overflow: clip;
+}
+
+strong{
+    font-weight: bold;
+}
+
+
+.hoofdgerecht, .voorgerecht, .nagerecht{
+    transition: 0.3s;
+    text-decoration: none;
+    color: black;
+    float: right;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.hoofdgerecht:hover, .voorgerecht:hover, .nagerecht:hover{
+    color: red;
+    font-weight: bold;
+    
+
+}
