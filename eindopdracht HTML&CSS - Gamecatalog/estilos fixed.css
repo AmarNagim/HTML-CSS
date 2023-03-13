@@ -1,0 +1,137 @@
+body{
+        margin-left: 150px;
+        margin-right: 150px;
+}
+
+*{
+        box-sizing: border-box;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+        display: flex;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+}
+
+
+
+a{
+        text-decoration: none;
+        color: black;
+        display: flex;
+        justify-content: center;
+        outline: 1px solid black;
+        padding: 20px;
+        margin: 10px;
+        font-size: clamp(20px, 1vw, 70px);
+        text-align: center;
+}
+
+a:hover{
+        cursor: pointer;
+        background-color:rgba(223, 223, 223, 0.537);
+}
+
+.games-container{
+        width: 40%;
+        align-items: normal;
+        justify-content: center;
+        border-bottom: none;
+        border-top: none;
+        border: none;
+}
+
+.random-container{
+        width: 60%;
+        border: none;
+        justify-content: end;
+}
+
+.under-container{
+        margin-top: 20px;
+        min-width: 50%;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid black;
+}
+
+.minecraft{
+        justify-content: start;
+        float: left;
+        padding: 20px;
+        border-right: 1px solid black;
+
+}
+
+.stats-container{
+        /* padding: 15%; */
+        padding-left: 25px;
+        padding-right: 25px;
+        border-right: none;
+        border-top: none;
+        border-bottom: none;
+        justify-content: end; 
+}
+
+/* .description{
+        min-width: 500px;
+        max-width: 900px;
+} */
+
+.properties{
+        border: 1px solid black;
+        margin: 10px;
+        padding: 10px;
+        justify-content: center;
+}
+
+.properties-container{
+        display: flex;
+        float: right;
+}
+
+.pictures-container{
+        min-width: 50%;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        /* justify-content: space-between; */
+        border: 1px solid black;
+        padding: 2px;
+}
+
+.screenshot{
+        border: 1px solid black;
+        width: 200px;
+        height: 200px;
+        padding: 7px;
+        display: block;
+        margin: 5px;
+}
+
+.systemrequirements-container{
+        min-width: 50%;
+        flex-wrap: nowrap;
+        align-items: center;
+        /* justify-content: space-between; */
+        border: 1px solid black;
+        padding: 20px;
+        border-top: none;
+
+}
+
+.recentie-container{
+        min-width: 50%;
+        flex-wrap: nowrap;
+        align-items: center;
+        /* justify-content: space-between; */
+        border: 1px solid black;
+        padding: 20px;
+        border-top: none;
+
+}
