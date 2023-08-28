@@ -1,0 +1,347 @@
+body{
+    margin-left: 150px; 
+    margin-right: 150px; 
+} 
+
+*{ 
+    box-sizing: border-box; 
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+
+
+
+.container{ 
+    display: flex; 
+    /* flex-wrap: wrap; */ 
+    justify-content: center; 
+    align-items: center; 
+    border: 1px solid black; 
+} 
+
+
+
+a{ 
+    text-decoration: none; 
+    color: black; 
+    display: flex; 
+    justify-content: center; 
+    outline: 1px solid black; 
+    padding: 20px; 
+    margin: 10px; 
+    font-size: clamp(20px, 1vw, 70px); 
+    text-align: center; 
+} 
+
+a:hover{ 
+    cursor: pointer; 
+    background-color:rgba(223, 223, 223, 0.537); 
+} 
+
+.games-container{ 
+    width: 40%; 
+    align-items: normal; 
+    justify-content: center; 
+    border-bottom: none; 
+    border-top: none; 
+    border: none; 
+} 
+
+.random-container{ 
+    width: 60%; 
+    border: none; 
+    justify-content: end; 
+} 
+
+.under-container{ 
+    margin-top: 20px; 
+    min-width: 50%; 
+    display: flex; 
+    flex-wrap: nowrap; 
+    align-items: center; 
+    justify-content: space-between; 
+    border: 1px solid black; 
+} 
+
+.minecraft{ 
+    justify-content: start; 
+    float: left; 
+    padding: 20px; 
+    border-right: 1px solid black; 
+
+} 
+
+.stats-container{ 
+    /* padding: 15%; */ 
+    padding-left: 25px; 
+    padding-right: 25px; 
+    border-right: none; 
+    border-top: none; 
+    border-bottom: none; 
+    justify-content: end;  
+} 
+
+/* .description{ 
+    min-width: 500px; 
+    max-width: 900px; 
+} */ 
+
+.properties{ 
+    border: 1px solid black; 
+    margin: 10px; 
+    padding: 10px; 
+    justify-content: center; 
+} 
+
+.properties-container{ 
+    display: flex; 
+    float: right; 
+} 
+
+.pictures-container{ 
+    min-width: 50%; 
+    display: flex; 
+    flex-wrap: nowrap; 
+    align-items: center; 
+    /* justify-content: space-between; */ 
+    border: 1px solid black; 
+    padding: 2px; 
+} 
+
+.screenshot{ 
+    border: 1px solid black; 
+    width: 200px; 
+    height: 200px; 
+    padding: 7px; 
+    display: block; 
+    margin: 5px; 
+} 
+
+.systemrequirements-container{ 
+    min-width: 50%; 
+    flex-wrap: nowrap; 
+    align-items: center; 
+    justify-content: space-between; 
+    border: 1px solid black; 
+    padding: 20px; 
+    border-top: none; 
+
+} 
+
+.recentie-container{ 
+    min-width: 50%; 
+    flex-wrap: nowrap; 
+    align-items: center; 
+    border: 1px solid black; 
+    padding: 20px; 
+    border-top: none; 
+}
+
+.under-container{
+    
+    margin-top: 20px;
+    min-width: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+    border: 0px 0px solid black;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom-style: none;
+
+
+}
+
+input, label {
+    display:block;
+}
+
+#filter-button {
+    margin-left: 50px;
+}
+
+.child-elements-filter {
+    padding-left: 80px;
+}
+
+#filter-container {
+    margin-top: 20px;
+    min-width: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    padding: 28px;
+}
+
+#main-container, #cart-container{
+    margin-top: 20px;
+    min-width: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+    border: 1px solid black;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* border-radius: 10px; */
+    flex-direction: column; 
+}
+
+
+#checkbox-container{
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    /* background-color: blue; */
+}
+svg {
+    height: 50px;
+    width: 50px;
+    transform: translate(100px, 0px);
+}
+svg:hover {
+    cursor: pointer;
+}
+#cartIcon-container, .cartIcon-container {
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: nowrap;
+    border-radius: 10px;
+    width: 80%;
+
+}
+
+#game-container {
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: nowrap;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 80%;
+
+}
+
+.game-name {
+    
+    left: 0;
+}
+
+.select {
+    background: #2a2f3b;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px #2a2f3b solid;
+    border-radius: 0.5em;
+    padding: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.select-clicked {
+    border: 2px #26489a solid;
+    box-shadow: 0 0 0.8em #26489a;
+}
+
+.select:hover {
+    background: #323741;
+}
+
+.caret {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #fff;
+    transition: 0.3s;
+}
+
+.caret-rotate {
+    transform: rotate(180deg);
+}
+
+.menu {
+    list-style: none;
+    padding: 0.2em 0.5em;
+    background: #323741;
+    border: 1px #363a43;
+    box-shadow: 0 0.5em 1em rgba(0,0,0,0.2);
+    border-radius: 0.5em;
+    color: #9fa5b5;
+    position: absolute;
+    top: 3em;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    opacity: 0;
+    display: none;
+    transition: 0.2s;
+    z-index: 1;
+}
+
+.menu li {
+    padding: 0.7em 0.5em;
+    margin: 0.3em 0;
+    border-radius: 0.5em;
+    cursor: pointer;
+
+}
+
+.menu li:hover{
+    background: #2a2d35;
+}
+
+.active {
+    background: #23242a;
+
+}
+
+.menu-open{
+    display: block;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+/* input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+  }
+  
+  label {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 35px; 
+    height: 35px;
+    border: 2px solid #000;
+    border-radius: 4px;
+  }
+  
+  input[type="checkbox"]:checked + label:before {
+    background-color: #000; 
+  }
+   */
